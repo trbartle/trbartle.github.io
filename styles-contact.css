@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/background.jpg)
   	  center center fixed no-repeat;
 	background-size: cover;
 	
@@ -79,7 +79,7 @@ html, body {
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: 3px solid rgb(255, 255, 255);
 	text-align: center;
 }
 
@@ -94,7 +94,7 @@ h2 {
 	font-family: voluta-script-pro, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 2.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
@@ -113,7 +113,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: dashed rgb(0, 0, 0);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -129,11 +129,11 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:rgb(0, 0, 0);
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
 	color:black;
-	background:pink;
+	background:rgb(248, 248, 248);
 	}
